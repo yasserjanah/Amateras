@@ -6,6 +6,10 @@
 
 <p align="center">Amateras - DHCP Starvation attack exploitation tool</p>
 
+<p align="center">
+  DHCP starvation attack is a malicious digital attack that targets DHCP servers. During a DHCP attack, a hostile actor floods a DHCP server with bogus DISCOVER packets until the DHCP server exhausts its supply of IP addresses. Once that happens, the attacker can deny legitimate network users service, or even supply an alternate DHCP connection that leads to a Man-in-the-Middle (MITM) attack.
+ </p>
+
 # AUTHOR 
 ```
     [+] AUTHOR:       Yasser Janah
