@@ -4,7 +4,7 @@
   <img src="https://raw.githubusercontent.com/yasserjanah/Amateras/main/screenshots/amateras_logo.png">
 </p>
 
-Amateras - DHCP Starvation attack exploitation tool
+<p align="center">Amateras - DHCP Starvation attack exploitation tool</p>
 
 # AUTHOR 
 ```
