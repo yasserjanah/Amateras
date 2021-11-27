@@ -60,10 +60,11 @@ func init() {
 
 	mainCmd.Usage = func() {
 		pterm.Printfln("%s %s %s:\n", pterm.Blue("•••"), pterm.White("Usage of"), pterm.Green(os.Args[0]))
-		pterm.Printfln("\t%s %s %s\n", pterm.Yellow("-iface"), pterm.Cyan("string"), pterm.White("Interface to start attack."))
-		pterm.Printfln("\t%s %s %s\n", pterm.Yellow("-start"), pterm.Cyan("IPv4"), pterm.White("Range start address."))
-		pterm.Printfln("\t%s %s %s\n", pterm.Yellow("-end"), pterm.Cyan("IPv4"), pterm.White("Range end address."))
-		pterm.Printfln("\t%s %s %s\n", pterm.Yellow("-verbose"), pterm.Cyan("bool"), pterm.White("Show more details."))
+		pterm.Printfln("\t%s:", pterm.Magenta("run"))
+		pterm.Printfln("\t     %s %s %s\n", pterm.Yellow("-iface"), pterm.Cyan("string"), pterm.White("Interface to start attack."))
+		pterm.Printfln("\t     %s %s %s\n", pterm.Yellow("-start"), pterm.Cyan("IPv4"), pterm.White("Range start address."))
+		pterm.Printfln("\t     %s %s %s\n", pterm.Yellow("-end"), pterm.Cyan("IPv4"), pterm.White("Range end address."))
+		pterm.Printfln("\t     %s %s %s\n", pterm.Yellow("-verbose"), pterm.Cyan("bool"), pterm.White("Show more details."))
 	}
 
 	mainCmd.StringVar(&InterfaceName, "iface", "", "")
